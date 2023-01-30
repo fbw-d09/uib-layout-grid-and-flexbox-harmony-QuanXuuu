@@ -19,16 +19,13 @@
 
 /* Add your styles below here*/
 
-body
-{
-  background-color: gray;
-}
-
 .container
 {
   display: grid;
   grid-template-columns: 190px 190px 190px 190px;
   gap:0.5em;
+  background-color: gray;
+  width: 800px;
 }
 
 .bg1,
@@ -38,14 +35,15 @@ body
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 400px;
+  color: #eee;
 }
 
 .bg1 div,
 .bg2 div
 {
-  font-size: 2em;
-  color: rgb(238, 238, 238);
+  font-size: 1.2em;
+  /* color: rgb(238, 238, 238); */
   background-color:rgba(0,0,0,0.5) ;
   padding: 0.5em;
   margin: 0.5em;
